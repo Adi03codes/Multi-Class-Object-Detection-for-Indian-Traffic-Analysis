@@ -40,35 +40,7 @@ Unique challenges addressed include handling traffic congestion, mixed vehicle t
 
 ---
 
-## Repository Structure
 
-/indian-traffic-object-detection/
-│
-├── data/ # Dataset images and annotations
-│ ├── images/ # Raw and test images
-│ ├── annotations/ # YOLO-format label files
-│ └── indian_traffic.yaml # Dataset config with classes and paths
-│
-├── models/ # Training, inference scripts and configs
-│ ├── train.py
-│ ├── inference.py
-│ └── yolov8_config.yaml
-│
-├── dashboard/ # Web dashboard source code
-│ ├── backend/ # Flask API server
-│ └── frontend/ # React.js app
-│
-├── deployment/ # Deployment and docker files
-│ ├── Dockerfile
-│ └── inference_server.py
-│
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── LICENSE # License file
-
-yaml
-Copy
-Edit
 
 ---
 
